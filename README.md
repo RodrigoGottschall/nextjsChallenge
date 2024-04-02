@@ -1,6 +1,4 @@
-# nextjsChallenge
-
-O Seguinte desafion consistia em:
+# O Seguinte desafio consistia em:
 
 1. Fazer uma API POST em NodeJS que receba um payload de uma transação (idempotencyId, amount, type: credit /debit).
 2. Essa rota deve executar uma função que coloca a transação em uma AWS SQS (fila), usando SDK da AWS.
